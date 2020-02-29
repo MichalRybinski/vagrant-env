@@ -80,6 +80,8 @@ Vagrant.configure("2") do |config|
   #  Uncomment below only locally and provide your data, convenience commands
   # git config --global user.email "you@example.org"
   # git config --global user.name "Your Name"
+  eval "$(ssh-agent -s)"  #run ssh agent
+  # ssh-add /vagrant/.ssh/id_rsa  # KEEP YOUR KEY OUTSIDE OF VAGRANT BOX! /vagrant shared folder should be fine...
   #   apt-get install -y apache2
   SHELL
 end
