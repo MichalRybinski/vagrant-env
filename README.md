@@ -9,4 +9,4 @@ This repo holds sample vagrantfile(s), which allows to run initial dev env for s
 5. Run `vagrant up`
 6. Run `vagrant ssh`
 
-Please refer to Vagrant documentation for more details.
+Please refer to [Vagrant documentation](https://www.vagrantup.com/intro/getting-started/index.html) for more details.
